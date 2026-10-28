@@ -1,0 +1,35 @@
+<ModMetaData>
+  <name>Gene Bridge - Big and Small + Alpha Genes Compatibility</name>
+  <author>SweetBriana</author>
+  <packageId>sweetbriana.genebridge</packageId>
+  <modVersion>1.0.0.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>redmattis.betterprerequisites</li>
+    <li>redmattis.bigsmall.core</li>
+    <li>redmattis.bigsmall</li>
+    <li>cain.imago</li>
+    <li>sarg.alphagenes</li>
+    <li>cinder.spawnfemalepawnsonly17</li>
+    <li>LanYv.SpawnFemalePawnsOnly</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>sweetbriana.imago.bigsmall.compatibility</li>
+    <li>sweetbriana.agfemale.linkcompatibility</li>
+  </incompatibleWith>
+  <description>Two focused genetic compatibility repairs in one mod. Prevents Big and Small's generated xenotype transformation genes from reusing existing gene names, including Imago_Metamorphosis. Repairs inherited duplicate AG_Female entries and keeps one canonical female-gene link per description. Original gene identities, other genes, other links and ordinary error reporting are retained. Big and Small, Alpha Genes, Imago and the other affected mods remain separate optional subscriptions. Requires Harmony and Biotech. Disable the earlier standalone Imago/B&amp;S or AG_Female compatibility patches when using Gene Bridge. Native RimWorld 1.7 / Harmony 3 comparison verified both repairs. Gameplay metamorphosis and exhaustive save/hot-reload acceptance are outside the completed startup checks.</description>
+</ModMetaData>

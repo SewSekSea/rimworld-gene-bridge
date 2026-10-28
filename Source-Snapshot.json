@@ -1,0 +1,63 @@
+{
+  "name": "Gene Bridge",
+  "packageId": "sweetbriana.genebridge",
+  "repository": "rimworld-gene-bridge",
+  "license": "MIT",
+  "sourceUnit": "Development/GeneBridge/Package/GeneBridge",
+  "productionSource": "Development/GeneBridge/Package/GeneBridge/Source",
+  "sourceFilesUnmodified": true,
+  "recordedUtc": "2026-10-28T21:32:40.564Z",
+  "files": [
+    {
+      "path": "About/About.xml",
+      "bytes": 1927,
+      "sha256": "F551AB1A482FC25DE0C0C65A6722107443FE51181B1FCDF93298744286B36834",
+      "origin": "Development/GeneBridge/Package/GeneBridge/About/About.xml"
+    },
+    {
+      "path": "About/Preview.png",
+      "bytes": 962010,
+      "sha256": "2B73C8FA8E39A90A6EA888655A545CD337D5211A6AB10C67E38F329405DFA5DC",
+      "origin": "Development/GeneBridge/Package/GeneBridge/About/Preview.png"
+    },
+    {
+      "path": "LoadFolders.xml",
+      "bytes": 63,
+      "sha256": "46032AE26CDD2931FA779774991CE095A4816739C04F5216DF86B1CB61843DB3",
+      "origin": "Development/GeneBridge/Package/GeneBridge/LoadFolders.xml"
+    },
+    {
+      "path": "Source/GeneBridge.cs",
+      "bytes": 7255,
+      "sha256": "EF51EEE91D5BCCBD03D87B7B328D52CA121E364FD8F14F158EE5C73C2420226E",
+      "origin": "Development/GeneBridge/Package/GeneBridge/Source/GeneBridge.cs"
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "bytes": 10,
+      "sha256": "E19B71FCA9FEF4144F337245C42C086E982F67CD53997D63B27693E439E2DD32",
+      "origin": "installed metadata"
+    },
+    {
+      "path": "docs/Package-Guide.md",
+      "bytes": 4620,
+      "sha256": "0B03ED942EAE453E4CCA74471AD6E48483CF557A58496C53DAE045DAFF6C657D",
+      "origin": "Development/GeneBridge/Package/GeneBridge/README.md"
+    }
+  ],
+  "installedBinaryFingerprints": [
+    {
+      "path": "1.7/Assemblies/GeneBridge.dll",
+      "sha256": "020D0F4A77A69AB739C2EF52B16EFE96114311253697F63D741F945FCF87223C"
+    }
+  ],
+  "build17": {
+    "status": "COMPILED",
+    "sourceFiles": 1,
+    "gameVersion": "1.7.4990 rev1069",
+    "productSHA256": "020D0F4A77A69AB739C2EF52B16EFE96114311253697F63D741F945FCF87223C",
+    "diagnosticCount": 0
+  },
+  "nativePlaytest": "NOT_RUN_THIS_PASS",
+  "artworkOmitted": false
+}
